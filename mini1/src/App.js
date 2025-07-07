@@ -9,7 +9,7 @@ import Welcome from './Welcome'
 const App = () => {
   return (
     <Router>
-      <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
+      <div style={{ maxWidth: '1030px', width: '90%',margin: '0 auto', padding: '20px', minHeight: '100vh'  }}>
         <Routes>
         <Route path="/" element={<Welcome />} />
           <Route path="/registration" element={<Registration />} />

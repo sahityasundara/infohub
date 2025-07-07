@@ -63,7 +63,7 @@ const PostForm = ({ addPost }) => {
       <textarea
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        placeholder="What's on your mind?"
+        placeholder="Information about Event "
         rows="4"
         style={{ width: '100%', padding: '10px', marginBottom: '10px' }}
         className="post-textarea"

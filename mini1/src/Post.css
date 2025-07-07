@@ -1,5 +1,5 @@
 .post-container {
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -20,6 +20,7 @@
   .post-textarea {
     width: 100%;
     padding: 12px;
+     font-family: cambria;
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
